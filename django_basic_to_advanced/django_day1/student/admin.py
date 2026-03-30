@@ -14,7 +14,7 @@ admin.site.register(Profile,ProfileAdmin)
 # admin.site.register(Result)
 
 @admin.register(Result)
-class ResuktAdmin(admin.ModelAdmin):
-    list_display = ('id', 'stu_class')
+class ResultAdmin(admin.ModelAdmin):
+    list_display = ('id', 'stu_class' )
 
 
